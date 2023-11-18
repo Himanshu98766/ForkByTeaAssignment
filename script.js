@@ -11,9 +11,9 @@ for (var i = 0; i < navMenuAnchorTags.length; i++) {
       }
       // console.log(targetId);
       var targetSection = document.getElementById(targetId);
-      // console.log(targetSection);
       var interval = setInterval(function () {
          var targetSectionCoordinates = targetSection.getBoundingClientRect();
+         console.log(targetSectionCoordinates);
 
          if (targetSectionCoordinates.top <= 0) {
             clearInterval(interval);
