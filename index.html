@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AwesomeTech</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="icon" href="images/favicon.png" type="favicon">
+
+</head>
+<body>
+
+  <header>
+    <h1>AwesomeTech</h1>
+    <nav class="nav-menu">
+      <a href="#hero">Home</a>
+      <a href="#features">Features</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero-section" id="hero">
+    <h2>Welcome to AwesomeTech</h2>
+    <p>Your Search Ends Here!</p>
+    <a href="#contact" class="cta-button">Get Started</a>
+  </section>
+
+  <section class="features-section" id="features">
+  
+    <h2>Features</h2>
+   
+    <div class="feature">
+      <img src="images/shutterstock_713400085-min-1140x694.jpg" alt="Feature 1 Icon">
+      <h3>Advanced Technology</h3>
+      <p>Utilize cutting-edge technology to enhance your experience and stay ahead of the curve.</p>
+    </div>
+    <div class="feature">
+      <img src="images/wsi-imageoptim-8-Unified-steps-for-structuring-a-user-friendly-custom-Web-App.webp" alt="Feature 2 Icon">
+      <h3>User-Friendly Interface</h3>
+      <p>An intuitive and easy-to-use interface that ensures a seamless and enjoyable user experience.</p>
+    </div>
+    <div class="feature">
+      <img src="http://www.huonit.com.au/storage/app/media/Services/huonit_service_247help.jpg" alt="Feature 3 Icon">
+      <h3>24/7 Support</h3>
+      <p>Our dedicated support team is available around the clock to assist you with any inquiries or issues.</p>
+    </div>
+  </section>
+  
+
+  <section class="testimonials-section" id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+      <p>"I couldn't be happier with the amazing technology and service provided by AwesomeTech. It has transformed the way I work, and the support team is always there when I need them."</p>
+      <p>- John Doe, CEO of XYZ Company</p>
+    </div>
+    <div class="testimonial">
+      <p>"AwesomeTech has exceeded my expectations. The user-friendly interface and innovative features make it stand out from the competition. Highly recommended!"</p>
+      <p>- Jane Smith, Digital Marketing Specialist</p>
+    </div>
+  </section>
+  
+
+  <section class="contact-form" id="contact">
+    <h2>Contact Us</h2>
+    <form  action="https://formspree.io/f/xwkdjraw"
+    method="POST">
+      <div>
+        <!-- <label for="name">Name:</label> -->
+      <input type="text" id="name" name="name" placeholder="Name" required>
+      </div>
+      <div>
+        <!-- <label for="email">Email:</label> -->
+        <input type="email" id="email" name="email" placeholder="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Enter a valid email address" required>
+      </div>
+     <div>
+        <!-- <label for="message">Message:</label> -->
+        <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+     </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Connect with us on social media:</p>
+    <a href="http://www.linkedin.com/in/himanshu-sharma-a31998251" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+        LinkedIn</a>
+    <a href="https://twitter.com/Himansh35856931" target="_blank">
+        <i class="fa-brands fa-x-twitter"></i>
+        Twitter</a>
+    <a href="https://www.instagram.com/himanshu198118131/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+        Instagram</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

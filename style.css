@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+  }
+
+  .hero-section {
+    text-align: center;
+    padding: 2em;
+    background: url('http://thestatetimes.com/wp-content/uploads/2018/02/infotech.jpg') center/cover no-repeat;
+    color: #fff;
+    height: 300px;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    background-color: rgb(214 49 82);;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .features-section {
+    /* display: flex; */
+    justify-content: space-around;
+    padding: 3em;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .features-section h2{
+    display: flex;
+    justify-content: center;
+  }
+
+  .feature {
+    text-align: center;
+  }
+
+  .feature img{
+    height: 200px;
+    width: 400px;
+  }
+
+  .testimonials-section {
+    text-align: center;
+    padding: 3em;
+    background-color: lightblue;
+  }
+
+  .testimonial {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    margin: 1em;
+  }
+
+  .testimonial p {
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+
+  .testimonial p:last-child {
+    margin-bottom: 0;
+  }
+
+@media (max-width: 1200px) {
+    
+    .features-section{
+        flex-wrap: wrap;
+    }
+  }
+
+  .contact-form {
+    text-align: center;
+    padding: 3em;
+    background-color: antiquewhite;
+  }
+
+  form input, textarea{
+    padding: 12px;
+    margin: 8px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .contact-form button{
+        background: lightblue;
+    border: none;
+    padding: 15px;
+    width: 180px;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+
+  footer a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+  }
